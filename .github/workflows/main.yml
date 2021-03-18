@@ -82,4 +82,4 @@ jobs:
         appid: ${{secrets.unicom_appid}}
         notify_sckey: ${{secrets.notify_sckey}}
       run: node index.js unicom --user=${user} --password=${password} --appid=${appid}
-
+      
